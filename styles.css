@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header nav */
+
+.gamer-title {
+
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 32px;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.btn-follow-us {
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+border: none;
+margin-right: 240px;
+
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.btn-follow-us i{
+   padding: 18px;
+   padding-right: 8px;
+}
+
+.gamer {
+    display: flex;
+   margin-left: 240px;
+   gap: 20px;
+}
+.gamer img{
+    margin-top: 52px;
+    margin-bottom: 0px;
+    
+}
+
+.gamer-title{
+    text-align: center;
+}
