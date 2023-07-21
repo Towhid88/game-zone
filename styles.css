@@ -86,6 +86,7 @@ nav a {
 }
 
 .goat-section {
+    justify-content: space-between;
     width: auto;
     margin-left: 0px;
     margin-right: 240px;
@@ -93,6 +94,7 @@ nav a {
     margin-bottom: 0;
     padding-bottom: 0px;
     gap: 68px;
+    border: 2px solid tomato;
 }
 
 .goat-mother {
@@ -170,4 +172,20 @@ line-height: 30px; /* 150% */
     position: relative;
     bottom:-75px;
     right: -180px;
+
+}
+
+.icon-section > div{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.icon-section > div >div{
+    display: flex;
+    /* border: 2px solid tomato; */
+    border-radius: 50px;
 }
