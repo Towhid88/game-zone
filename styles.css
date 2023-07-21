@@ -166,3 +166,8 @@ line-height: 30px; /* 150% */
 
 }
 
+.jhamela-image{
+    position: relative;
+    bottom:-75px;
+    right: -180px;
+}
