@@ -18,6 +18,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 240px;
+    gap:680px;
 }
 
 nav>ul {
@@ -37,12 +39,12 @@ nav a {
 
 .btn-follow-us {
     color: #3C354F;
-text-align: center;
-font-family: Work Sans;
-font-size: 16px;
-font-weight: 500;
-border: none;
-margin-right: 240px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    /* margin-right: 240px; */
 
     width: 262px;
     height: 56px;
@@ -50,22 +52,117 @@ margin-right: 240px;
     background: rgba(11, 2, 35, 0.10);
 }
 
-.btn-follow-us i{
-   padding: 18px;
-   padding-right: 8px;
+.btn-follow-us i {
+    padding: 18px;
+    padding-right: 8px;
 }
 
 .gamer {
     display: flex;
-   margin-left: 240px;
-   gap: 20px;
-}
-.gamer img{
-    margin-top: 52px;
-    margin-bottom: 0px;
-    
+    margin-left: 240px;
+    gap: 20px;
 }
 
-.gamer-title{
+.gamer img {
+    margin-top: 52px;
+    margin-bottom: 0px;
+
+}
+
+.gamer-title {
     text-align: center;
 }
+
+/* GOAT section */
+
+.play-like {
+    margin-bottom: 0;
+    color: #0B0223;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat-section {
+    width: auto;
+    margin-left: 0px;
+    margin-right: 240px;
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    gap: 68px;
+}
+
+.goat-mother {
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    padding: 148px 300px 148px 240px;
+
+}
+
+.goat-title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.goat-ul {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.goat {
+    gap: 0;
+}
+
+.btn-2-3 {
+    margin-top: 40px;
+}
+
+/* Online Games */
+.online-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.online-des{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-top: 16px;
+}
+
+.online-games-des{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+
+}
+
